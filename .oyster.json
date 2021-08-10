@@ -1,0 +1,23 @@
+{
+  "description": "A Unity 3D package for managing quests with sub-tasks. Inspired by Skyrim and The Witcher 3's task managment system.",
+  "displayName": "Unity Quest Journal",
+  "keywords": [
+    "Unity 3D",
+    "quests",
+    "quest manager",
+    "quest tasks"
+  ],
+  "oysterVersion": "2.1.0",
+  "packageName": "com.fluid.quest-journal",
+  "packageScope": "com.fluid",
+  "unityVersion": "2020.1",
+  "author": {
+    "name": "Ash Blue",
+    "email": "ash@blueashes.com",
+    "url": "https://twitter.com/ashbluewd"
+  },
+  "repo": {
+    "gitUrl": "https://github.com/ashblue/unity-quest-journal",
+    "gitUrlNoHttp": "github.com/ashblue/unity-quest-journal"
+  }
+}

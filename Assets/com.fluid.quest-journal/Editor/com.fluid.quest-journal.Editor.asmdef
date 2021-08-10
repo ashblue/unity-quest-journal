@@ -1,0 +1,12 @@
+{
+    "name": "com.fluid.quest-journal.Editor",
+    "references": [
+        "com.fluid.quest-journal"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

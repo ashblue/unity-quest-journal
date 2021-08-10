@@ -1,0 +1,19 @@
+{
+    "name": "com.fluid.quest-journal.Editor.Tests",
+    "references": [
+        "com.fluid.quest-journal",
+        "com.fluid.quest-journal.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
