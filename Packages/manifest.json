@@ -1,5 +1,19 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "NPM",
+      "url": "https://registry.npmjs.org",
+      "scopes": [
+        "com.fluid",
+        "clever-crow"
+      ]
+    }
+  ],
   "dependencies": {
+    "clever-crow.nsubstitute": "2.0.3",
+    "com.fluid.adnc-utilities": "1.0.0",
+    "com.fluid.simple-settings": "1.0.1",
+    "com.fluid.simple-singleton": "1.0.0",
     "com.unity.collab-proxy": "1.7.1",
     "com.unity.ide.rider": "3.0.7",
     "com.unity.ide.visualstudio": "2.0.9",
