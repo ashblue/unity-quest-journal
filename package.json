@@ -8,6 +8,7 @@
   "scripts": {
     "build": "node build.js",
     "semantic-release": "semantic-release",
+    "prepare": "husky install",
     "commit": "git-cz"
   },
   "keywords": [
@@ -16,11 +17,6 @@
     "quest manager",
     "quest tasks"
   ],
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ashblue/unity-quest-journal.git"
@@ -36,8 +32,8 @@
   },
   "homepage": "https://github.com/ashblue/unity-quest-journal#readme",
   "devDependencies": {
-    "@commitlint/cli": "~12.0.1",
-    "@commitlint/config-conventional": "~12.0.1",
+    "@commitlint/cli": "~13.1.0",
+    "@commitlint/config-conventional": "~13.1.0",
     "@semantic-release/changelog": "~5.0.1",
     "@semantic-release/commit-analyzer": "~8.0.1",
     "@semantic-release/exec": "~5.0.0",
@@ -47,7 +43,7 @@
     "@semantic-release/release-notes-generator": "~9.0.2",
     "commitizen": "~4.2.3",
     "cz-conventional-changelog": "~3.3.0",
-    "husky": "~5.1.3",
+    "husky": "~7.0.2",
     "semantic-release": "~17.4.2",
     "upm-package-populator": "^2.0.0"
   },
