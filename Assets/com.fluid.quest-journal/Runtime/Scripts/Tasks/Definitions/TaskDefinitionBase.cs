@@ -5,7 +5,15 @@ using CleverCrow.Fluid.QuestJournals.Quests;
 using CleverCrow.Fluid.QuestJournals.Utilities;
 
 namespace CleverCrow.Fluid.QuestJournals.Tasks {
-    public abstract class TaskDefinitionBase : ScriptableObject, ITaskDefinition, ISetupEditor {
+    public abstract class TaskDefinitionBase :
+        ScriptableObject,
+#if UNITY_EDITOR
+        ITaskDefinition,
+        ISetupEditor
+#else
+        ITaskDefinition
+#endif
+    {
         [ReadOnly]
         [SerializeField]
         private string _id;
