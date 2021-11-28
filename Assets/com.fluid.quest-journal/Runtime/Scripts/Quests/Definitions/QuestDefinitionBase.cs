@@ -5,7 +5,15 @@ using CleverCrow.Fluid.QuestJournals.Utilities;
 using UnityEngine;
 
 namespace CleverCrow.Fluid.QuestJournals.Quests {
-    public abstract class QuestDefinitionBase : ScriptableObject, IQuestDefinition, ISetupEditor {
+    public abstract class QuestDefinitionBase :
+        ScriptableObject,
+#if UNITY_EDITOR
+        IQuestDefinition,
+        ISetupEditor
+#else
+        IQuestDefinition
+#endif
+    {
         [HideInInspector]
         [SerializeField]
         private string _id;
