@@ -5,8 +5,6 @@ using UnityEngine;
 namespace CleverCrow.Fluid.QuestJournals.Quests {
     public abstract class SortableListBase {
         protected ReorderableList _list;
-
-        protected SerializedObject _serializedObject;
         protected SerializedProperty _serializedProp;
 
         public SortableListBase (Editor editor, string property, string title) {
@@ -16,7 +14,6 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
             }
 
             _serializedProp = editor.serializedObject.FindProperty(property);
-            _serializedObject = editor.serializedObject;
 
             if (_serializedProp == null) {
                 Debug.LogErrorFormat("Could not find property {0}", property);
@@ -24,7 +21,7 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
             }
 
             _list = new ReorderableList(
-                _serializedObject,
+                editor.serializedObject,
                 _serializedProp,
                 true, true, true, true);
 
@@ -32,13 +29,9 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
         }
 
         public void Update () {
-            _serializedObject.Update();
-
             if (_list != null) {
                 _list.DoLayoutList();
             }
-
-            _serializedObject.ApplyModifiedProperties();
         }
     }
 }

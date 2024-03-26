@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: QuestDatabase
   m_EditorClassIdentifier: 
   _definitions:
-  - {fileID: 11400000, guid: a7b81445fa9bedd4a800767c1f9d0550, type: 2}
   - {fileID: 11400000, guid: 9ca19e38a9ebe84459e3428f2b335ae2, type: 2}
   - {fileID: 11400000, guid: 58b4ab93ce1c8dd4e81ccda1a9412313, type: 2}
   - {fileID: 11400000, guid: 98734e1de07dc314ab0899b23d09c0c5, type: 2}

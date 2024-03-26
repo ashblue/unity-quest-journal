@@ -11,10 +11,11 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
         }
 
         public override void OnInspectorGUI () {
-            _taskList.Update();
-
-            // Listed last to prevent textarea pointer from bugging out (Unity bug)
             base.OnInspectorGUI();
+
+            serializedObject.Update();
+            _taskList.Update();
+            serializedObject.ApplyModifiedProperties();
         }
     }
 }

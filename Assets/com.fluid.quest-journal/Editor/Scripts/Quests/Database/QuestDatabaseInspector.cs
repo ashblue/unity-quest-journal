@@ -35,7 +35,7 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
                     menu.AddItem(
                         new GUIContent(line.path),
                         false,
-                        () => CreateQuest(list, line.type));
+                        () => CreateQuest(line.type));
                 }
 
                 menu.ShowAsContext();
@@ -144,7 +144,7 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
             Debug.Log("END: Fixing duplicate definition IDs.");
         }
 
-        private void CreateQuest (ReorderableList list, Type type) {
+        private void CreateQuest (Type type) {
             var defaultPath = GetActiveProjectPath();
 
             // Give the user a file save dialog for the new quest
@@ -153,6 +153,7 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
             if (path.Length != 0) {
                 // Generate the new SO
                 var pathFileName = path.Substring(path.LastIndexOf("/") + 1);
+                pathFileName = pathFileName.Substring(0, pathFileName.LastIndexOf("."));
                 var asset = CreateInstance(type) as QuestDefinitionBase;
                 asset.SetupEditor(InsertSpaces(pathFileName));
 
@@ -160,16 +161,16 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
                 Undo.RecordObject(target, "Add Quest");
                 AssetDatabase.CreateAsset(asset, path);
 
-                AssetDatabase.SaveAssets();
-                AssetDatabase.Refresh();
-
                 // Add this item to the reorderable list
-                var index = list.serializedProperty.arraySize;
-                list.serializedProperty.arraySize++;
-                var element = list.serializedProperty.GetArrayElementAtIndex(index);
+                var index = _reorderableList.serializedProperty.arraySize;
+                _reorderableList.serializedProperty.arraySize++;
+                var element = _reorderableList.serializedProperty.GetArrayElementAtIndex(index);
                 element.objectReferenceValue = asset;
 
-                list.serializedProperty.serializedObject.ApplyModifiedProperties();
+                _reorderableList.serializedProperty.serializedObject.ApplyModifiedProperties();
+
+                AssetDatabase.SaveAssets();
+                AssetDatabase.Refresh();
             }
         }
 
