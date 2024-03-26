@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324b5808905d4a6cb51baa31cfef459d, type: 3}
+  m_Name: Escort the generic NPC
+  m_EditorClassIdentifier: 
+  _displayName: Untitled Quest
+  _id: 5e67bcfc-92f0-4721-ae81-cedf7e18b8a3
+  _description: Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet
+    transom heave to.
+  _tasks:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

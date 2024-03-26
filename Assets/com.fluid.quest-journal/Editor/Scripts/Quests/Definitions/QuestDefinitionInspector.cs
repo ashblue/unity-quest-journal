@@ -11,7 +11,6 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
         }
 
         public override void OnInspectorGUI () {
-            target.name = EditorGUILayout.TextField("Title", target.name);
             _taskList.Update();
 
             // Listed last to prevent textarea pointer from bugging out (Unity bug)

@@ -42,7 +42,7 @@ namespace CleverCrow.Fluid.QuestJournals.Editors.Utilities {
 
             var listItem = ScriptableObject.CreateInstance(type) as T;
             Debug.Assert(listItem != null, $"Failed to create new type {type}");
-            listItem.SetupEditor();
+            listItem.SetupEditor("Untitled");
             _onCreateCallback?.Invoke(listItem);
 
             Undo.SetCurrentGroupName("Add type");

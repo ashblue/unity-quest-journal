@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Adnc.Utility.Editors;
 using CleverCrow.Fluid.QuestJournals.Editors.Utilities;
 using CleverCrow.Fluid.QuestJournals.Tasks;
 using UnityEditor;
@@ -14,8 +13,6 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
             _taskTypes ??= new TypesToMenu<TaskDefinitionBase>();
 
         public SortableListTasks (Editor editor, string property, QuestDefinitionBase parent, List<TaskDefinitionBase> tasks, string title) : base(editor, property, title) {
-            _editor = editor;
-
             _soPrinter = new ScriptableObjectListPrinter(_serializedProp);
             _taskCrud = new NestedDataCrud<TaskDefinitionBase>(parent, tasks, TaskTypes);
             _taskCrud.BindOnCreate((task) => {

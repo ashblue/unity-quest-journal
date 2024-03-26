@@ -32,7 +32,7 @@ namespace CleverCrow.Fluid.QuestJournals.Tasks {
         public IQuestDefinition Parent => _parent;
 
 #if UNITY_EDITOR
-        public void SetupEditor () {
+        public void SetupEditor (string displayName) {
             name = "Untitled Task";
             _id = Guid.NewGuid().ToString();
         }

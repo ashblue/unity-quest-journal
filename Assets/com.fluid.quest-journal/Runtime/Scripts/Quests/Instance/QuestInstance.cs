@@ -9,7 +9,7 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
         private int _taskIndex;
 
         public IQuestDefinition Definition { get; }
-        public string Title => Definition.Title;
+        public string Title => Definition.DisplayName;
         public string Description => Definition.Description;
         public IReadOnlyList<ITaskInstanceReadOnly> Tasks => _tasks;
         public QuestStatus Status => _taskIndex >= _tasks.Count ? QuestStatus.Complete : QuestStatus.Ongoing;
