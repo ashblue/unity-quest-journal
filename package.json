@@ -1,0 +1,12 @@
+{
+    "name": "com.fluid.quest-journal",
+    "version": "0.0.0",
+    "displayName": "Unity Quest Journal",
+    "description": "A Unity 3D package for managing quests with sub-tasks. Inspired by Skyrim and The Witcher 3's task management system.",
+    "unity": "2020.1",
+    "dependencies": {
+        "com.fluid.adnc-utilities": "1.0.0",
+        "com.fluid.simple-settings": "1.0.1",
+        "com.fluid.simple-singleton": "1.0.0"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "com.fluid.quest-journal.Editor",
+    "rootNamespace": "",
+    "references": [
+        "com.fluid.quest-journal",
+        "com.fluid.adnc-utilities.Editor",
+        "com.fluid.simple-settings"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
