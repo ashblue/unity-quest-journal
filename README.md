@@ -12,6 +12,7 @@ A Unity 3D package for managing quests with sub-tasks. Inspired by Skyrim and Th
 * Customizable drop in example prefab to easily get a quest GUI up and running in minutes
 * Save / load support out of the box
 * Heavily tested with TDD
+* Includes event hooks to distribute rewards, update UI, and other game logic
 
 **Support**
 
@@ -105,6 +106,34 @@ Found in `Assets/Examples/DebugQuestPrint/DebugQuestPrint.scene`. A useful scene
 
 ## Recipes
 
+### Event Hooks
+
+You can hook into quest state changes with the following hooks. This is extremely useful for granting rewards, detecting task changes, updating UI, and other game logic.
+
+NOTE: Make sure you remove the event listener when the listening object is destroyed to prevent memory leaks.
+
+```c#
+// Triggers when a quest is added to the collection. Generally useful for UI updates
+QuestJournalManager.Instance.Quests.EventQuestAdd.AddListener((quest) => {
+    // Your logic here
+});
+
+// Triggers when a quest is completed due to running out of tasks. Useful for quest completion post processing events
+QuestJournalManager.Instance.Quests.EventQuestComplete.AddListener((quest) => {
+    // Your logic here
+});
+
+// Triggered when a quest has a task change. A good place to update your UI if you are displaying quest progress
+QuestJournalManager.Instance.Quests.EventQuestUpdate.AddListener((quest) => {
+    // Your logic here
+});
+
+// Triggers whenever a task is completed with the corresponding quest and task instance. Useful to fire post processing events with completed tasks.
+QuestJournalManager.Instance.Quests.EventQuestTaskComplete.AddListener((quest, task) => {
+    // Your logic here
+});
+```
+
 ### Save And Load
 
 Unity Quest Journal supports save and load functionality out of the box. You can execute a save of your current quest states as so.
@@ -168,6 +197,12 @@ var taskDefinition = QuestJournalManager.Instance.Quests
     .ActiveTask
     .Definition as MyCustomTaskDefinition;
 ```
+
+### Hiding Default Quest and Task
+
+If you've written your own custom tasks you probably don't want the default ones to show up in the inspector. You can hide them by clicking the following checkboxes in your settings object.
+
+![Hide default quest and task](docs/hide-default-quest-and-task.png)
 
 ## Releases
 
