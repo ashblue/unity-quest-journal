@@ -7,7 +7,7 @@
     "quest manager",
     "quest tasks"
   ],
-  "oysterVersion": "2.1.0",
+  "oysterVersion": "3.0.2",
   "packageName": "com.fluid.quest-journal",
   "packageScope": "com.fluid",
   "unityVersion": "2020.1",

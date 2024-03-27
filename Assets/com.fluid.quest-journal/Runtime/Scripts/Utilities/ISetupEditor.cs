@@ -1,5 +1,5 @@
 namespace CleverCrow.Fluid.QuestJournals.Utilities {
     public interface ISetupEditor {
-        void SetupEditor ();
+        void SetupEditor (string displayName);
     }
 }

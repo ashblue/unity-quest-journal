@@ -8,10 +8,11 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
         private Dictionary<string, IQuestDefinition> _idToQuest;
 
         [HideInInspector]
-        public List<QuestDefinitionBase> questDefinitions = new List<QuestDefinitionBase>();
+        [SerializeField]
+        public List<QuestDefinitionBase> _definitions = new();
 
         public void Setup () {
-            _idToQuest = questDefinitions.ToDictionary((quest) => quest.Id, (quest) => quest as IQuestDefinition);
+            _idToQuest = _definitions.ToDictionary((quest) => quest.Id, (quest) => quest as IQuestDefinition);
         }
 
         public IQuestDefinition GetQuest (string id) {

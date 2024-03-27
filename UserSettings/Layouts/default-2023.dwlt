@@ -1,0 +1,2862 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 42.666668
+    width: 2560
+    height: 1349.3334
+  m_ShowMode: 4
+  m_Title: Inspector
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2560
+    height: 1349.3334
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2560
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 1329.3334
+    width: 2560
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 2560
+    height: 1299.3334
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 122
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2560
+    height: 1299.3334
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 123
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1836.6666
+    height: 1299.3334
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 43
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1836.6666
+    height: 796.6667
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 44
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 350.66666
+    height: 796.6667
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 350.66666
+    y: 0
+    width: 1486
+    height: 796.6667
+  m_MinSize: {x: 52, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 19}
+  - {fileID: 13}
+  m_Selected: 4
+  m_LastSelected: 3
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 796.6667
+    width: 1836.6666
+    height: 502.6667
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 22}
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1836.6666
+    y: 0
+    width: 723.3334
+    height: 1299.3334
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 23}
+  m_Panes:
+  - {fileID: 23}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Game\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 351.66666
+    y: 19
+    width: 1484
+    height: 775.6667
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 2012, y: 1132}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 01000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -670.6667
+    m_HBaseRangeMax: 670.6667
+    m_VBaseRangeMin: -377.33334
+    m_VBaseRangeMax: 377.33334
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1484
+      height: 754.6667
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 742, y: 377.33334}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -742
+      y: -377.33334
+      width: 1484
+      height: 754.6667
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 2226, y: 1163.5}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 390, y: 390}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Lighting
+    m_Image: {fileID: -1477008817101679558, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Lighting\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 869.3334
+    width: 1784.3334
+    height: 481.6667
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Hierarchy\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 19
+    width: 349.66666
+    height: 775.6667
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0efbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Scene\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: -1657
+    y: 649
+    width: 1113
+    height: 555
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Tool Settings
+      index: 0
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-169.3333740234375,"y":-26.66668701171875},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -169.33337, y: -26.666687}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-141.0,"y":149.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-scene-view-toolbar
+      index: 0
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: unity-search-toolbar
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":-24.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -24, y: 0}
+      snapCorner: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      displayed: 1
+      id: unity-transform-toolbar
+      index: 0
+      contents: '{"m_Layout":2,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      displayed: 1
+      id: unity-component-tools
+      index: 1
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      displayed: 1
+      id: Orientation
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":67.5,"y":86.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Light Settings
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Camera
+      index: 1
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Cloth Constraints
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Cloth Collisions
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Agent Display
+      index: 5
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Occlusion Culling
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Physics Debugger
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Scene Visibility
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Particles
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap
+      index: 11
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: APV Overlay
+      index: 7
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/TrailRenderer
+      index: 7
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Cinemachine Tool Settings
+      index: 9
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 10
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Brush Attributes
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-scene-view-camera-mode-toolbar
+      index: 2
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-262.6666259765625,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -262.66663, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Terrain Tools
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Brush Masks
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--left
+      displayed: 0
+      id: Scene View/Lighting Visualization Colors
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: SceneView/CamerasOverlay
+      index: 8
+      contents: '{"m_Layout":4,"m_Collapsed":true,"m_Floating":false,"m_FloatingSnapOffset":{"x":-250.0,"y":-180.66668701171876},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":246.0,"y":176.66668701171876},"m_SizeOverridden":true}'
+      floating: 0
+      collapsed: 1
+      snapOffset: {x: -250, y: -180.66669}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 4
+      size: {x: 246, y: 176.66669}
+      sizeOverridden: 1
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/PBR Validation Settings
+      index: 9
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Animation Rigging
+      index: 12
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: AINavigationOverlay
+      index: 10
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    m_ContainerData:
+    - containerId: overlay-toolbar__top
+      scrollOffset: 0
+    - containerId: overlay-toolbar__left
+      scrollOffset: 0
+    - containerId: overlay-container--left
+      scrollOffset: 0
+    - containerId: overlay-container--right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__bottom
+      scrollOffset: 0
+    - containerId: Floating
+      scrollOffset: 0
+    m_OverlaysVisible: 1
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_DebugDrawModesUseInteractiveLightBakingData: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 0
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0.25, y: 0.25}
+    yGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0.25, y: 0.25}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0.25, y: 0.25}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    speed: 2
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_Size:
+    m_Target: 13.608618
+    speed: 2
+    m_Value: 13.608618
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 1.0064968
+    m_SpeedNormalized: 0.5029999
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_Viewpoint:
+    m_SceneView: {fileID: 16}
+    m_CameraOverscanSettings:
+      m_Opacity: 50
+      m_Scale: 2.049999
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_LastDebugDrawMode: 35
+  m_ViewIsLockedToObject: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 1050, y: 250}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Package Manager
+    m_Image: {fileID: 5076950121296946556, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Package Manager\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: -1657
+    y: 649
+    width: 1113
+    height: 555
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Animator\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 350.6667
+    y: 72.66667
+    width: 1484.6667
+    height: 775
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -5713776276039663152, guid: 67aa3f37be611c746b6bcb006c6f193a, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 67aa3f37be611c746b6bcb006c6f193a, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -5713776276039663152, guid: 67aa3f37be611c746b6bcb006c6f193a, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Test Runner\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 350.6667
+    y: 72.66667
+    width: 1484
+    height: 775.6667
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_Spl:
+    ID: 9053
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 528.6667
+    - 176
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 704.6667
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 0}
+    m_NewResultList: []
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories: []
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 19}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[unity-quest-journal][suite]'
+      name: unity-quest-journal
+      fullName: unity-quest-journal
+      resultStatus: 1
+      duration: 0.2138466
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1057
+      uniqueId: '[com.fluid.quest-journal.Editor.Tests.dll][suite]'
+      name: com.fluid.quest-journal.Editor.Tests.dll
+      fullName: C:/Users/truef/Programming/unity/unity-quest-journal/Library/ScriptAssemblies/com.fluid.quest-journal.Editor.Tests.dll
+      resultStatus: 1
+      duration: 0.211424
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[unity-quest-journal][suite]'
+    - id: 1058
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/[CleverCrow][suite]'
+      name: CleverCrow
+      fullName: CleverCrow
+      resultStatus: 1
+      duration: 0.208222
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1057
+      parentUniqueId: '[com.fluid.quest-journal.Editor.Tests.dll][suite]'
+    - id: 1059
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/[Fluid][suite]'
+      name: Fluid
+      fullName: CleverCrow.Fluid
+      resultStatus: 1
+      duration: 0.2040006
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1058
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/[CleverCrow][suite]'
+    - id: 1060
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/[QuestJournals][suite]'
+      name: QuestJournals
+      fullName: CleverCrow.Fluid.QuestJournals
+      resultStatus: 1
+      duration: 0.2017315
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1059
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/[Fluid][suite]'
+    - id: 1061
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/[Testing][suite]'
+      name: Testing
+      fullName: CleverCrow.Fluid.QuestJournals.Testing
+      resultStatus: 1
+      duration: 0.1985079
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1060
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/[QuestJournals][suite]'
+    - id: 1063
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+      name: Quests
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests
+      resultStatus: 1
+      duration: 0.1439286
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1061
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/[Testing][suite]'
+    - id: 1014
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest][suite]'
+      name: QuestCollectionTest+Add_Method+AddingByQuest
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest
+      resultStatus: 1
+      duration: 0.0055356
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1015
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Add_Method+AddingByQuest/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest.It_should_create_a_quest_instance_with_the_definition]'
+      name: It_should_create_a_quest_instance_with_the_definition
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest.It_should_create_a_quest_instance_with_the_definition
+      resultStatus: 1
+      duration: 0.00072
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest][suite]'
+    - id: 1016
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Add_Method+AddingByQuest/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest.It_should_return_the_same_quest_instance_with_multiple_adds]'
+      name: It_should_return_the_same_quest_instance_with_multiple_adds
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest.It_should_return_the_same_quest_instance_with_multiple_adds
+      resultStatus: 1
+      duration: 0.000591
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest][suite]'
+    - id: 1017
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Add_Method+AddingByQuest/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest.It_should_trigger_EventAddQuest]'
+      name: It_should_trigger_EventAddQuest
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest.It_should_trigger_EventAddQuest
+      resultStatus: 1
+      duration: 0.0011258
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByQuest][suite]'
+    - id: 1018
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask][suite]'
+      name: QuestCollectionTest+Add_Method+AddingByTask
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask
+      resultStatus: 1
+      duration: 0.0067232
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1019
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Add_Method+AddingByTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask.It_should_return_the_parent_quest_instance]'
+      name: It_should_return_the_parent_quest_instance
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask.It_should_return_the_parent_quest_instance
+      resultStatus: 1
+      duration: 0.0005904
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask][suite]'
+    - id: 1020
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Add_Method+AddingByTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask.It_should_set_the_active_task_on_the_instance_to_the_task]'
+      name: It_should_set_the_active_task_on_the_instance_to_the_task
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask.It_should_set_the_active_task_on_the_instance_to_the_task
+      resultStatus: 1
+      duration: 0.0006954
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask][suite]'
+    - id: 1021
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Add_Method+AddingByTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask.It_should_trigger_EventAddQuest]'
+      name: It_should_trigger_EventAddQuest
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask.It_should_trigger_EventAddQuest
+      resultStatus: 1
+      duration: 0.0010698
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Add_Method+AddingByTask][suite]'
+    - id: 1014
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestComplete_Property][suite]'
+      name: QuestCollectionTest+EventQuestComplete_Property
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestComplete_Property
+      resultStatus: 1
+      duration: 0.0082467
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1066
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1015
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+EventQuestComplete_Property/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestComplete_Property.It_should_trigger_when_a_quest_is_completed]'
+      name: It_should_trigger_when_a_quest_is_completed
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestComplete_Property.It_should_trigger_when_a_quest_is_completed
+      resultStatus: 1
+      duration: 0.0012285
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestComplete_Property][suite]'
+    - id: 1016
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+EventQuestComplete_Property/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestComplete_Property.It_should_trigger_when_a_quest_is_completed_by_next]'
+      name: It_should_trigger_when_a_quest_is_completed_by_next
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestComplete_Property.It_should_trigger_when_a_quest_is_completed_by_next
+      resultStatus: 1
+      duration: 0.0008675
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestComplete_Property][suite]'
+    - id: 1021
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestTaskComplete_Property][suite]'
+      name: QuestCollectionTest+EventQuestTaskComplete_Property
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestTaskComplete_Property
+      resultStatus: 1
+      duration: 0.0050954
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1022
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+EventQuestTaskComplete_Property/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestTaskComplete_Property.It_should_trigger_when_a_task_is_completed]'
+      name: It_should_trigger_when_a_task_is_completed
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestTaskComplete_Property.It_should_trigger_when_a_task_is_completed
+      resultStatus: 1
+      duration: 0.0008979
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestTaskComplete_Property][suite]'
+    - id: 1017
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property][suite]'
+      name: QuestCollectionTest+EventQuestUpdate_Property
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property
+      resultStatus: 1
+      duration: 0.0090469
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1069
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1020
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+EventQuestUpdate_Property/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property.It_should_trigger_when_a_task_is_completed]'
+      name: It_should_trigger_when_a_task_is_completed
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property.It_should_trigger_when_a_task_is_completed
+      resultStatus: 1
+      duration: 0.0013323
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1017
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property][suite]'
+    - id: 1018
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+EventQuestUpdate_Property/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property.It_should_trigger_when_Next_is_called_on_a_quest]'
+      name: It_should_trigger_when_Next_is_called_on_a_quest
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property.It_should_trigger_when_Next_is_called_on_a_quest
+      resultStatus: 1
+      duration: 0.000878
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1017
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property][suite]'
+    - id: 1019
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+EventQuestUpdate_Property/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property.It_should_trigger_when_SetTask_is_called_on_a_quest]'
+      name: It_should_trigger_when_SetTask_is_called_on_a_quest
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property.It_should_trigger_when_SetTask_is_called_on_a_quest
+      resultStatus: 1
+      duration: 0.0010104
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1017
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+EventQuestUpdate_Property][suite]'
+    - id: 1021
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByQuest][suite]'
+      name: QuestCollectionTest+Get_Method+ByQuest
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByQuest
+      resultStatus: 1
+      duration: 0.0067792
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1023
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Get_Method+ByQuest/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByQuest.It_should_return_null_if_there_is_no_quest_instance]'
+      name: It_should_return_null_if_there_is_no_quest_instance
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByQuest.It_should_return_null_if_there_is_no_quest_instance
+      resultStatus: 1
+      duration: 0.0002256
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByQuest][suite]'
+    - id: 1022
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Get_Method+ByQuest/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByQuest.It_should_return_the_quest_instance_by_IQuestData]'
+      name: It_should_return_the_quest_instance_by_IQuestData
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByQuest.It_should_return_the_quest_instance_by_IQuestData
+      resultStatus: 1
+      duration: 0.0006084
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByQuest][suite]'
+    - id: 1024
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByTask][suite]'
+      name: QuestCollectionTest+Get_Method+ByTask
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByTask
+      resultStatus: 1
+      duration: 0.0083529
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1025
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Get_Method+ByTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByTask.It_should_return_the_quest_instance_by_ITaskData]'
+      name: It_should_return_the_quest_instance_by_ITaskData
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByTask.It_should_return_the_quest_instance_by_ITaskData
+      resultStatus: 1
+      duration: 0.0008557
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Get_Method+ByTask][suite]'
+    - id: 1007
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+GetAll_Method][suite]'
+      name: QuestCollectionTest+GetAll_Method
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+GetAll_Method
+      resultStatus: 1
+      duration: 0.0057161
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1008
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+GetAll_Method/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+GetAll_Method.It_should_get_all_the_quests]'
+      name: It_should_get_all_the_quests
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+GetAll_Method.It_should_get_all_the_quests
+      resultStatus: 1
+      duration: 0.0005436
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+GetAll_Method][suite]'
+    - id: 1011
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Load_Method][suite]'
+      name: QuestCollectionTest+Load_Method
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Load_Method
+      resultStatus: 1
+      duration: 0.0059111
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1012
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Load_Method/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Load_Method.It_should_clear_out_old_quest_data]'
+      name: It_should_clear_out_old_quest_data
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Load_Method.It_should_clear_out_old_quest_data
+      resultStatus: 1
+      duration: 0.0006285
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Load_Method][suite]'
+    - id: 1013
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Load_Method/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Load_Method.It_should_restore_quest_instances]'
+      name: It_should_restore_quest_instances
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Load_Method.It_should_restore_quest_instances
+      resultStatus: 1
+      duration: 0.0008924
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Load_Method][suite]'
+    - id: 1009
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Save_Method][suite]'
+      name: QuestCollectionTest+Save_Method
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Save_Method
+      resultStatus: 1
+      duration: 0.0044204
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1010
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestCollectionTest+Save_Method/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Save_Method.It_should_save_all_quest_instances]'
+      name: It_should_save_all_quest_instances
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Save_Method.It_should_save_all_quest_instances
+      resultStatus: 1
+      duration: 0.0006481
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestCollectionTest+Save_Method][suite]'
+    - id: 1049
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Complete][suite]'
+      name: QuestInstanceTest+Methods+Complete
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Complete
+      resultStatus: 1
+      duration: 0.0057976
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1051
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+Complete/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Complete.It_should_mark_all_tasks_as_complete]'
+      name: It_should_mark_all_tasks_as_complete
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Complete.It_should_mark_all_tasks_as_complete
+      resultStatus: 1
+      duration: 0.0007693
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1049
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Complete][suite]'
+    - id: 1050
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+Complete/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Complete.It_should_mark_the_quest_as_complete]'
+      name: It_should_mark_the_quest_as_complete
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Complete.It_should_mark_the_quest_as_complete
+      resultStatus: 1
+      duration: 0.0008553
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1049
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Complete][suite]'
+    - id: 1054
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Load][suite]'
+      name: QuestInstanceTest+Methods+Load
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Load
+      resultStatus: 1
+      duration: 0.0061744
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1055
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+Load/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Load.It_should_load_the_expected_index]'
+      name: It_should_load_the_expected_index
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Load.It_should_load_the_expected_index
+      resultStatus: 1
+      duration: 0.001131
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1054
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Load][suite]'
+    - id: 1056
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+Load/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Load.It_should_restore_the_task_as_expected]'
+      name: It_should_restore_the_task_as_expected
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Load.It_should_restore_the_task_as_expected
+      resultStatus: 1
+      duration: 0.0010555
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1054
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Load][suite]'
+    - id: 1041
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next][suite]'
+      name: QuestInstanceTest+Methods+Next
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next
+      resultStatus: 1
+      duration: 0.006658
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1044
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+Next/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next.It_should_mark_completed_task_as_complete]'
+      name: It_should_mark_completed_task_as_complete
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next.It_should_mark_completed_task_as_complete
+      resultStatus: 1
+      duration: 0.0007586
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next][suite]'
+    - id: 1043
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+Next/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next.It_should_mark_the_new_task_as_ongoing]'
+      name: It_should_mark_the_new_task_as_ongoing
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next.It_should_mark_the_new_task_as_ongoing
+      resultStatus: 1
+      duration: 0.0008622
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next][suite]'
+    - id: 1042
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+Next/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next.It_should_not_crash_when_calling_next_after_all_tasks_are_complete]'
+      name: It_should_not_crash_when_calling_next_after_all_tasks_are_complete
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next.It_should_not_crash_when_calling_next_after_all_tasks_are_complete
+      resultStatus: 1
+      duration: 0.0006953
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Next][suite]'
+    - id: 1052
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Save][suite]'
+      name: QuestInstanceTest+Methods+Save
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Save
+      resultStatus: 1
+      duration: 0.0055071
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1053
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+Save/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Save.It_should_save_the_quest_data]'
+      name: It_should_save_the_quest_data
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Save.It_should_save_the_quest_data
+      resultStatus: 1
+      duration: 0.0012128
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1052
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+Save][suite]'
+    - id: 1045
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask][suite]'
+      name: QuestInstanceTest+Methods+SetTask
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask
+      resultStatus: 1
+      duration: 0.0084463
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1048
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+SetTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask.It_should_set_all_future_tasks_as_none]'
+      name: It_should_set_all_future_tasks_as_none
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask.It_should_set_all_future_tasks_as_none
+      resultStatus: 1
+      duration: 0.0011749
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1045
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask][suite]'
+    - id: 1046
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+SetTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask.It_should_set_all_previous_tasks_to_complete]'
+      name: It_should_set_all_previous_tasks_to_complete
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask.It_should_set_all_previous_tasks_to_complete
+      resultStatus: 1
+      duration: 0.0011118
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1045
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask][suite]'
+    - id: 1047
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Methods+SetTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask.It_should_set_the_targeted_task_as_ongoing]'
+      name: It_should_set_the_targeted_task_as_ongoing
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask.It_should_set_the_targeted_task_as_ongoing
+      resultStatus: 1
+      duration: 0.001088
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1045
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Methods+SetTask][suite]'
+    - id: 1028
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask][suite]'
+      name: QuestInstanceTest+Properties+ActiveTask
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask
+      resultStatus: 1
+      duration: 0.0100324
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1030
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Properties+ActiveTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask.It_should_be_null_if_there_are_no_tasks]'
+      name: It_should_be_null_if_there_are_no_tasks
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask.It_should_be_null_if_there_are_no_tasks
+      resultStatus: 1
+      duration: 0.0009439
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask][suite]'
+    - id: 1032
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Properties+ActiveTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask.It_should_point_to_the_last_task_when_calling_Next_to_complete_all_tasks]'
+      name: It_should_point_to_the_last_task_when_calling_Next_to_complete_all_tasks
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask.It_should_point_to_the_last_task_when_calling_Next_to_complete_all_tasks
+      resultStatus: 1
+      duration: 0.001194
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask][suite]'
+    - id: 1031
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Properties+ActiveTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask.It_should_point_to_the_next_task_when_calling_Next]'
+      name: It_should_point_to_the_next_task_when_calling_Next
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask.It_should_point_to_the_next_task_when_calling_Next
+      resultStatus: 1
+      duration: 0.0016465
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask][suite]'
+    - id: 1029
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Properties+ActiveTask/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask.It_should_set_the_expected_starting_task]'
+      name: It_should_set_the_expected_starting_task
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask.It_should_set_the_expected_starting_task
+      resultStatus: 1
+      duration: 0.0012904
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+ActiveTask][suite]'
+    - id: 1039
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Description][suite]'
+      name: QuestInstanceTest+Properties+Description
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Description
+      resultStatus: 1
+      duration: 0.0087994
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1040
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Properties+Description/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Description.It_should_use_the_quest_definition_Description]'
+      name: It_should_use_the_quest_definition_Description
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Description.It_should_use_the_quest_definition_Description
+      resultStatus: 1
+      duration: 0.0039566
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1039
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Description][suite]'
+    - id: 1037
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Name][suite]'
+      name: QuestInstanceTest+Properties+Name
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Name
+      resultStatus: 1
+      duration: 0.0050337
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1038
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Properties+Name/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Name.It_should_use_the_quest_definition_Name]'
+      name: It_should_use_the_quest_definition_Name
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Name.It_should_use_the_quest_definition_Name
+      resultStatus: 1
+      duration: 0.0009277
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1037
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Name][suite]'
+    - id: 1033
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status][suite]'
+      name: QuestInstanceTest+Properties+Status
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status
+      resultStatus: 1
+      duration: 0.0074213
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1034
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Properties+Status/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status.It_should_be_Ongoing_by_default]'
+      name: It_should_be_Ongoing_by_default
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status.It_should_be_Ongoing_by_default
+      resultStatus: 1
+      duration: 0.0005086
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status][suite]'
+    - id: 1036
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Properties+Status/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status.It_should_be_Ongoing_when_Next_is_called_on_multiple_task]'
+      name: It_should_be_Ongoing_when_Next_is_called_on_multiple_task
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status.It_should_be_Ongoing_when_Next_is_called_on_multiple_task
+      resultStatus: 1
+      duration: 0.0008977
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status][suite]'
+    - id: 1035
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Properties+Status/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status.It_should_change_to_Complete_when_all_tasks_are_resolved]'
+      name: It_should_change_to_Complete_when_all_tasks_are_resolved
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status.It_should_change_to_Complete_when_all_tasks_are_resolved
+      resultStatus: 1
+      duration: 0.0004042
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Status][suite]'
+    - id: 1026
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Tasks][suite]'
+      name: QuestInstanceTest+Properties+Tasks
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Tasks
+      resultStatus: 1
+      duration: 0.0083245
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1063
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests][suite]'
+    - id: 1027
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/QuestInstanceTest+Properties+Tasks/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Tasks.It_should_generate_task_instances_for_each_task]'
+      name: It_should_generate_task_instances_for_each_task
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Tasks.It_should_generate_task_instances_for_each_task
+      resultStatus: 1
+      duration: 0.0015652
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Quests/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Quests.QuestInstanceTest+Properties+Tasks][suite]'
+    - id: 1062
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks][suite]'
+      name: Tasks
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Tasks
+      resultStatus: 1
+      duration: 0.0485852
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1061
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/[Testing][suite]'
+    - id: 1001
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Tasks/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Constructor][suite]'
+      name: TaskInstanceTest+Constructor
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Constructor
+      resultStatus: 1
+      duration: 0.0031371
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1062
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks][suite]'
+    - id: 1002
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Tasks/TaskInstanceTest+Constructor/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Constructor.It_should_initialize]'
+      name: It_should_initialize
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Constructor.It_should_initialize
+      resultStatus: 1
+      duration: 0.00081
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Tasks/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Constructor][suite]'
+    - id: 1005
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Tasks/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Description_Property][suite]'
+      name: TaskInstanceTest+Description_Property
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Description_Property
+      resultStatus: 1
+      duration: 0.0173233
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1062
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks][suite]'
+    - id: 1006
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Tasks/TaskInstanceTest+Description_Property/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Description_Property.It_should_be_the_same_as_the_definition_title]'
+      name: It_should_be_the_same_as_the_definition_title
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Description_Property.It_should_be_the_same_as_the_definition_title
+      resultStatus: 1
+      duration: 0.0007724
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Tasks/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Description_Property][suite]'
+    - id: 1003
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Tasks/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Title_Property][suite]'
+      name: TaskInstanceTest+Title_Property
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Title_Property
+      resultStatus: 1
+      duration: 0.0075317
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1062
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks][suite]'
+    - id: 1004
+      uniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Tasks/TaskInstanceTest+Title_Property/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Title_Property.It_should_be_the_same_as_the_definition_title]'
+      name: It_should_be_the_same_as_the_definition_title
+      fullName: CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Title_Property.It_should_be_the_same_as_the_definition_title
+      resultStatus: 1
+      duration: 0.0007572
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: 'com.fluid.quest-journal.Editor.Tests.dll/CleverCrow/Fluid/QuestJournals/Testing/Tasks/[com.fluid.quest-journal.Editor.Tests][CleverCrow.Fluid.QuestJournals.Testing.Tasks.TaskInstanceTest+Title_Property][suite]'
+    m_ResultText: It_should_trigger_when_a_task_is_completed (0.001s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: dd15796e
+      m_LastClickedID: 1853429213
+      m_ExpandedIDs: ecb8d78a885d6ab550ba48bdec9bbacbb9e854d3e2c915e2b26fccf2e557abf75b8607273ee20c2ea5994d2fcf6677465a45005eb902c6675a7bad74ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Project\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 815.6667
+    width: 1835.6666
+    height: 481.6667
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/com.fluid.quest-journal/Runtime/Scripts/Quests/Definitions
+    m_Globs: []
+    m_ProductIds: 
+    m_AnyWithAssetOrigin: 0
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/com.fluid.quest-journal/Runtime/Scripts/Quests/Definitions
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: C:\Users\truef\Programming\unity\unity-quest-journal
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e4780000
+    m_LastClickedID: 30948
+    m_ExpandedIDs: 000000005478000056780000587800005a7800005c7800005e78000060780000627800006478000066780000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 000000005478000056780000587800005a7800005c7800005e78000060780000627800006478000066780000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000010bc000024bc0000fca30000f0ae000060a70000000000000caa00008ca5000030a6000020b00100fcb2000060aa000074c5000078c700004ac300007cbf0000e8be000026cc02000ee60000d4e50000dee70000f8d30000d2e70000d8ca0000aab600001cde0000707e0000f8850000068600003ca3ffff8e85ffffc032ffffc633ffff
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 368.33334
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Console\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 869.3334
+    width: 1835.6666
+    height: 481.6667
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Animation\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 923.3334
+    width: 1697.6666
+    height: 427.6667
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -277440
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Inspector\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1837.6666
+    y: 19
+    width: 722.3334
+    height: 1278.3334
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -258.3333
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
