@@ -19,24 +19,9 @@ namespace CleverCrow.Fluid.QuestJournals.Quests {
             _questDatabase = questDatabase;
         }
 
-        /// <summary>
-        /// Triggers when a quest is added to the collection. Generally useful for UI updates
-        /// </summary>
         public IUnityEventReadOnly<IQuestInstance> EventQuestAdd => _eventQuestAdd;
-
-        /// <summary>
-        /// Triggers when a quest is completed due to running out of tasks. Useful for quest completion post processing events
-        /// </summary>
         public IUnityEventReadOnly<IQuestInstance> EventQuestComplete => _eventQuestComplete;
-
-        /// <summary>
-        /// Triggered when a quest has a task change. A good place to update your UI if you are displaying quest progress
-        /// </summary>
         public IUnityEventReadOnly<IQuestInstance> EventQuestUpdate => _eventQuestUpdate;
-
-        /// <summary>
-        /// Triggers whenever a task is completed with the corresponding quest and task instance. Useful to fire post processing events with completed tasks.
-        /// </summary>
         public IUnityEventReadOnly<IQuestInstance, ITaskInstanceReadOnly> EventQuestTaskComplete => _eventQuestTaskComplete;
 
         public IQuestInstance Add (IQuestDefinition definition) {

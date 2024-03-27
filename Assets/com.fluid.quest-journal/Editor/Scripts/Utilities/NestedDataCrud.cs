@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using CleverCrow.Fluid.QuestJournals.Tasks;
 using CleverCrow.Fluid.QuestJournals.Utilities;
 using UnityEditor;
 using UnityEditorInternal;
@@ -22,7 +23,12 @@ namespace CleverCrow.Fluid.QuestJournals.Editors.Utilities {
         public void ShowMenu (Rect buttonRect, ReorderableList list) {
             var menu = new GenericMenu();
 
+            var settings = Resources.Load<QuestJournalSettings>("QuestJournalSettings");
+            var hideDefaultTask = settings == null ? false : settings.HideDefaultTaskDefinition;
+
             foreach (var line in _menuData.Lines) {
+                if (hideDefaultTask && line.type == typeof(TaskDefinition)) continue;
+
                 menu.AddItem(
                     new GUIContent(line.path),
                     false,

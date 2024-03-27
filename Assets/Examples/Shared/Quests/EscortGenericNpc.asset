@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324b5808905d4a6cb51baa31cfef459d, type: 3}
+  m_Name: EscortGenericNpc
+  m_EditorClassIdentifier: 
+  _displayName: Escort Generic Npc
+  _id: d0f77129-359f-4bd2-972f-5da1f64fc587
+  _description: Escort elmo through the darkness.
+  _tasks:
+  - {fileID: 966545881616771964}
+--- !u!114 &966545881616771964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b6ab881f0f4c8da0723ccbee1664f0, type: 3}
+  m_Name: Help Elmo
+  m_EditorClassIdentifier: 
+  _id: a74f3a3d-73bc-499e-9721-ddc461d4db47
+  _parent: {fileID: 11400000}
+  _description: Elmo needs your help. Go help him.
