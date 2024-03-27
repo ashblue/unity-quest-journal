@@ -14,11 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _database: {fileID: 11400000, guid: e85d9db7970c2c248bfdcffa74e26cc9, type: 2}
   _startingQuests:
-  - {fileID: -968356211190185492, guid: e85d9db7970c2c248bfdcffa74e26cc9, type: 2}
+  - {fileID: 11400000, guid: 63e0a136f7e80204dae326e3c028f7a4, type: 2}
+  - {fileID: 11400000, guid: 8680c338bb1090244bd07d741424243c, type: 2}
+  - {fileID: 11400000, guid: 3a53aef5be7a81340b6b18ddd452e3fc, type: 2}
+  - {fileID: 11400000, guid: c4d49d8a67dc1bf4081fa56e7ba8eb05, type: 2}
+  _hideDefaultQuestDefinition: 0
+  _hideDefaultTaskDefinition: 0
   _debugQuests:
-  - definition: {fileID: 6491383000520604419, guid: e85d9db7970c2c248bfdcffa74e26cc9, type: 2}
-    _markComplete: 0
-  - definition: {fileID: 4266206304897878580, guid: e85d9db7970c2c248bfdcffa74e26cc9, type: 2}
+  - definition: {fileID: 11400000, guid: 8680c338bb1090244bd07d741424243c, type: 2}
+    _markComplete: 1
+  - definition: {fileID: 11400000, guid: 63e0a136f7e80204dae326e3c028f7a4, type: 2}
     _markComplete: 1
   _debugTasks:
-  - {fileID: -20373574577641427, guid: e85d9db7970c2c248bfdcffa74e26cc9, type: 2}
+  - {fileID: -1412844774608707153, guid: c4d49d8a67dc1bf4081fa56e7ba8eb05, type: 2}

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1412844774608707153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b6ab881f0f4c8da0723ccbee1664f0, type: 3}
+  m_Name: Middle Task
+  m_EditorClassIdentifier: 
+  _id: 7319a59f-d207-4884-a507-c88a69a9e153
+  _parent: {fileID: 11400000}
+  _description: In the heart of the storm, where lightning cracks and thunder roars,
+    we stand unshaken. The tempest's fury is but a dance, a test of wills we're not
+    forsaken.
+--- !u!114 &-246998165401274275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b6ab881f0f4c8da0723ccbee1664f0, type: 3}
+  m_Name: Last Task
+  m_EditorClassIdentifier: 
+  _id: c8f1db21-e3a1-45d0-8e53-6ecdbda0a05d
+  _parent: {fileID: 11400000}
+  _description: Yo-ho-ho, and a bottle of rum! By the moon's silver glow, we share
+    tales of yore. Our laughter and songs mingle with the ocean's roar.
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324b5808905d4a6cb51baa31cfef459d, type: 3}
+  m_Name: SaveTheWorld
+  m_EditorClassIdentifier: 
+  _displayName: Save The World
+  _id: 1df3fa7d-5739-4cb7-aa23-8b820c87520b
+  _description: With compass in hand and the stars as our guide, we navigate through
+    the endless blue. The promise of adventure, of lands untouched, drives us ever
+    forward, ever true.
+  _tasks:
+  - {fileID: 8797303726343602766}
+  - {fileID: -1412844774608707153}
+  - {fileID: -246998165401274275}
+--- !u!114 &8797303726343602766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b6ab881f0f4c8da0723ccbee1664f0, type: 3}
+  m_Name: First Task
+  m_EditorClassIdentifier: 
+  _id: f563df3c-4c83-4aa8-be79-44e9dcb01914
+  _parent: {fileID: 11400000}
+  _description: So raise the Jolly Roger high, let its black fabric catch the wind.
+    Together we sail under the banner of freedom, our spirits unchained, our resolve
+    unthinned.

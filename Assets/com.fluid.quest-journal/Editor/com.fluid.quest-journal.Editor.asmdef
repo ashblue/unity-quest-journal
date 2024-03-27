@@ -3,7 +3,8 @@
     "rootNamespace": "",
     "references": [
         "com.fluid.quest-journal",
-        "com.fluid.adnc-utilities.Editor"
+        "com.fluid.adnc-utilities.Editor",
+        "com.fluid.simple-settings"
     ],
     "includePlatforms": [
         "Editor"

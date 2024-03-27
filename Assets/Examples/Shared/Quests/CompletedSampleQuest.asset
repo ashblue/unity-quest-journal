@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3614585789152805425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b6ab881f0f4c8da0723ccbee1664f0, type: 3}
+  m_Name: Sample Quest A
+  m_EditorClassIdentifier: 
+  _id: 4ca8b47a-1b65-44a7-9bab-9dbf5966b523
+  _parent: {fileID: 11400000}
+  _description: Shiver me timbers! The map's a riddle, leading us to booty untold.
+    With a hearty crew and a sturdy ship, we brave the untamed and the bold.
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324b5808905d4a6cb51baa31cfef459d, type: 3}
+  m_Name: CompletedSampleQuest
+  m_EditorClassIdentifier: 
+  _displayName: Sample Quest
+  _id: f9ea7413-b891-42f9-ac9b-062cea9806f7
+  _description: Avast ye! Under the black flag we sail, the horizon our domain. The
+    creak of timbers, the slap of waves, freedom courses through our veins.
+  _tasks:
+  - {fileID: -3614585789152805425}
+  - {fileID: 5984850899454313740}
+--- !u!114 &5984850899454313740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b6ab881f0f4c8da0723ccbee1664f0, type: 3}
+  m_Name: Sample Quest B
+  m_EditorClassIdentifier: 
+  _id: 094e3d23-8716-4f49-af6e-8a2e0d5d69c6
+  _parent: {fileID: 11400000}
+  _description: Yo-ho-ho, and a bottle of rum! By the moon's silver glow, we share
+    tales of yore. Our laughter and songs mingle with the ocean's roar.

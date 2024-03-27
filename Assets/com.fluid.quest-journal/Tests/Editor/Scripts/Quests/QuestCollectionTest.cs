@@ -1,9 +1,11 @@
 using System.Collections.Generic;
 using CleverCrow.Fluid.QuestJournals.Quests;
+using CleverCrow.Fluid.QuestJournals.Tasks;
 using CleverCrow.Fluid.QuestJournals.Testing.Builders;
 using NSubstitute;
 using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace CleverCrow.Fluid.QuestJournals.Testing.Quests {
     public class QuestCollectionTest {
@@ -38,6 +40,18 @@ namespace CleverCrow.Fluid.QuestJournals.Testing.Quests {
 
                     Assert.AreEqual(questInstanceA, questInstanceB);
                 }
+
+                [Test]
+                public void It_should_trigger_EventAddQuest () {
+                    var questData = A.QuestDefinition().Build();
+
+                    var action = Substitute.For<UnityAction<IQuestInstance>>();
+                    var col = Setup();
+                    col.EventQuestAdd.AddListener(action);
+                    var questInstance = col.Add(questData);
+
+                    action.Received(1).Invoke(questInstance);
+                }
             }
 
             public class AddingByTask : QuestCollectionTest {
@@ -61,6 +75,19 @@ namespace CleverCrow.Fluid.QuestJournals.Testing.Quests {
                     var questInstance = col.Add(taskData);
 
                     Assert.AreEqual(questInstance.ActiveTask.Definition, taskData);
+                }
+
+                [Test]
+                public void It_should_trigger_EventAddQuest () {
+                    var questData = A.QuestDefinition().Build();
+                    var taskData = questData.Tasks[0];
+
+                    var action = Substitute.For<UnityAction<IQuestInstance>>();
+                    var col = Setup();
+                    col.EventQuestAdd.AddListener(action);
+                    var questInstance = col.Add(taskData);
+
+                    action.Received(1).Invoke(questInstance);
                 }
             }
         }
@@ -170,6 +197,91 @@ namespace CleverCrow.Fluid.QuestJournals.Testing.Quests {
                 var questInstance =  col.Get(questData);
 
                 Assert.AreEqual(questData, questInstance.Definition);
+            }
+        }
+
+        public class EventQuestComplete_Property : QuestCollectionTest {
+            [Test]
+            public void It_should_trigger_when_a_quest_is_completed () {
+                var questData = A.QuestDefinition().WithTaskCount(2).Build();
+                var col = Setup();
+                var questInstance = col.Add(questData);
+
+                var action = Substitute.For<UnityAction<IQuestInstance>>();
+                col.EventQuestComplete.AddListener(action);
+                questInstance.Complete();
+
+                action.Received(1).Invoke(questInstance);
+            }
+
+            [Test]
+            public void It_should_trigger_when_a_quest_is_completed_by_next () {
+                var questData = A.QuestDefinition().WithTaskCount(1).Build();
+                var col = Setup();
+                var questInstance = col.Add(questData);
+
+                var action = Substitute.For<UnityAction<IQuestInstance>>();
+                col.EventQuestComplete.AddListener(action);
+                questInstance.Next();
+
+                action.Received(1).Invoke(questInstance);
+            }
+        }
+
+        public class EventQuestUpdate_Property : QuestCollectionTest {
+            [Test]
+            public void It_should_trigger_when_Next_is_called_on_a_quest () {
+                var questData = A.QuestDefinition().Build();
+                var col = Setup();
+                var questInstance = col.Add(questData);
+
+                var action = Substitute.For<UnityAction<IQuestInstance>>();
+                col.EventQuestUpdate.AddListener(action);
+                questInstance.Next();
+
+                action.Received(1).Invoke(questInstance);
+            }
+
+            [Test]
+            public void It_should_trigger_when_SetTask_is_called_on_a_quest () {
+                var questData = A.QuestDefinition().WithTaskCount(2).Build();
+                var col = Setup();
+                var questInstance = col.Add(questData);
+
+                var action = Substitute.For<UnityAction<IQuestInstance>>();
+                col.EventQuestUpdate.AddListener(action);
+                questInstance.SetTask(questData.Tasks[1]);
+
+                action.Received(1).Invoke(questInstance);
+            }
+
+            [Test]
+            public void It_should_trigger_when_a_task_is_completed () {
+                var questData = A.QuestDefinition().WithTaskCount(2).Build();
+                var col = Setup();
+                var questInstance = col.Add(questData);
+
+                var action = Substitute.For<UnityAction<IQuestInstance>>();
+                col.EventQuestUpdate.AddListener(action);
+                questInstance.Complete();
+
+                action.Received(2).Invoke(questInstance);
+            }
+        }
+
+        public class EventQuestTaskComplete_Property : QuestCollectionTest {
+            [Test]
+            public void It_should_trigger_when_a_task_is_completed () {
+                var questData = A.QuestDefinition().WithTaskCount(1).Build();
+                var col = Setup();
+                var questInstance = col.Add(questData);
+                var task = questInstance.ActiveTask;
+
+                var action = Substitute.For<UnityAction<IQuestInstance, ITaskInstanceReadOnly>>();
+                col.EventQuestTaskComplete.AddListener(action);
+                questInstance.Next();
+
+                action.Received(1).Invoke(questInstance, task);
             }
         }
     }

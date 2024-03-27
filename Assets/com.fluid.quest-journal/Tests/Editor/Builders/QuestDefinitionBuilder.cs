@@ -14,7 +14,7 @@ namespace CleverCrow.Fluid.QuestJournals.Testing.Builders {
 
         public IQuestDefinition Build () {
             var questData = Substitute.For<IQuestDefinition>();
-            questData.Title.Returns(_name);
+            questData.DisplayName.Returns(_name);
             questData.Description.Returns(_description);
 
             _tasks.ForEach(t => t.Parent.Returns(questData));
